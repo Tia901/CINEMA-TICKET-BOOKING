@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINEMA TICKET BOOKING SYSTEM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cinema Ticket Booking System</h1>
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name" id="name">
+        <br>
+        <label>Age:</label>
+        <input type="number" placeholder="How old are you" id="age">
+        <br>
+        <label>Number of Tickets:</label>
+        <input type="number" placeholder="Number of tickets" id="tickets">
+        <br>
+        <button onclick="calculateTicket()">Calculate Price</button>
+        <button onclick="clearTicket()">Clear</button>
+        <hr>
+        <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
